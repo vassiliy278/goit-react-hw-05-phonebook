@@ -1,0 +1,37 @@
+p {
+    margin: 5px 0px 0px 0px;
+}
+form {
+    color: rgb(219, 150, 219);
+    font-size: 16px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+}
+input {
+    line-height: 2rem;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(219, 150, 219);
+    font-size: 16px;
+    font-family: monospace;
+    color: rgb(219, 150, 219)
+}
+input:focus {
+    border: 1px solid rgb(236, 195, 236)
+}
+button {
+    margin: 20px 0px;
+    font-family: monospace;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid black;
+    line-height: 2rem;
+    color: #000;
+    background-color: rgb(209, 183, 146);
+    letter-spacing: .5em;
+    font-size: 16px;
+}
+button:hover {
+    background-color: rgb(228, 205, 173);
+}

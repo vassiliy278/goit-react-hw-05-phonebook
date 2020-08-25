@@ -1,0 +1,12 @@
+.cl-appear {
+    opacity: 0;
+}
+.cl-appear-active {
+    opacity: 1;
+    transition: all 500ms;
+    color: red;
+}
+.cl-appear-done {
+    opacity: 1;
+    color: red;
+}

@@ -1,0 +1,18 @@
+.bigs {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(219, 150, 219);
+    /* border: 1px solid; */
+}
+.slide-appear {
+    transform: translateY(-100%);
+}  
+.slide-appear-active {
+    transform: translateY(20%);
+    transition: all 500ms;
+}
+.slide-appear-done {
+    transform: translateY(0);
+    transition: all 50ms;
+}
